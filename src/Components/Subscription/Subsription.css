@@ -1,0 +1,88 @@
+.subscription {
+  margin-bottom: 166px;
+}
+.subscription .main-content {
+  border-radius: 130px 20px 20px 20px;
+  -webkit-border-radius: 130px 20px 20px 20px;
+  -moz-border-radius: 130px 20px 20px 20px;
+  -ms-border-radius: 130px 20px 20px 20px;
+  -o-border-radius: 130px 20px 20px 20px;
+  background: #f9f7ff;
+  position: relative;
+  z-index: 212;
+}
+.subscription .main-content .Subscription-left-shape {
+  position: absolute;
+  top: 33px;
+  left: -52px;
+  width: -moz-fit-content;
+  width: 504px;
+  z-index: -2234;
+}
+.subscription .main-content .Subscription-right-shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -234;
+}
+.subscription .main-content .teleLogo {
+  position: absolute;
+  top: -13px;
+  right: -20px;
+}
+.subscription .main-content .subscription-heading {
+  width: 859px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 54px;
+  text-align: center;
+  margin: auto;
+  padding: 79px 0 74px;
+}
+.subscription .main-content .subscription-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding-bottom: 78px;
+}
+.subscription .main-content .subscription-bottom .input-field {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 25px 281px 25px 31px;
+}
+.subscription .main-content .subscription-bottom .input-field i {
+  margin-right: 14px;
+  color: #39425D;
+}
+.subscription .main-content .subscription-bottom .input-field input {
+  outline: none;
+  border: none;
+}
+.subscription .main-content .subscription-bottom .input-field input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.subscription .main-content .subscription-bottom button {
+  padding: 22px 50px;
+  background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+  border-radius: 10px;
+  border: none;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+  color: #FFFFFF;
+}

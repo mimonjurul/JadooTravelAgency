@@ -1,0 +1,69 @@
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 47px auto;
+  padding-top: 0px;
+}
+
+.navbar .nav-left .logo {
+  width: 111px;
+}
+
+.navbar .nav-right {
+  display: flex;
+  align-items: baseline;
+}
+
+.navbar .nav-right .nav-menu {
+  margin-right: 86px;
+}
+
+.navbar .nav-right .nav-menu .navbar-nav {
+  display: flex;
+  flex-direction: inherit;
+  gap: 50px;
+}
+
+.navbar .nav-right .nav-menu .navbar-nav .nav-items .nav-links {
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #212832;
+  text-decoration: none;
+}
+
+.navbar .nav-right .nav-btn {
+  display: flex;
+  align-items: baseline;
+  gap: 47px;
+}
+
+.navbar .nav-right .nav-btn .login-btn {
+  font-family: "Open Sans", sans-serif;
+  background: none;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #212832;
+}
+
+.navbar .nav-right .nav-btn .signup-btn {
+  font-family: "Open Sans", sans-serif;
+  background-color: transparent;
+  border: 1px solid #212832;
+  border-radius: 5px;
+  padding: 9px 20px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #212832;
+}
+
+.navbar .nav-right .nav-btn .lang-chnager {
+  font-family: "Open Sans", sans-serif;
+}

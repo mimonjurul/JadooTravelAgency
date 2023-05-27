@@ -1,0 +1,54 @@
+.book-a-trip {
+  margin-top: -114px;
+}
+.book-a-trip .book-a-trip-left .book-a-trip-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5E6282;
+}
+.book-a-trip .book-a-trip-left .book-a-trip-heading {
+  font-family: "Volkhov";
+  width: 564px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  text-transform: capitalize;
+  color: #14183E;
+  margin: 15px 0 31px;
+}
+.book-a-trip .book-a-trip-left .book-a-trip-left-cards {
+  display: grid;
+  row-gap: 48px;
+}
+.book-a-trip .book-a-trip-left .book-a-trip-left-cards .card-content {
+  align-items: center;
+  width: 395px;
+  gap: 21px;
+}
+.book-a-trip .book-a-trip-left .book-a-trip-left-cards .card-content .left img {
+  margin-bottom: 21px;
+}
+.book-a-trip .book-a-trip-left .book-a-trip-left-cards .card-content .right .card-title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5E6282;
+  margin-bottom: 4px;
+}
+.book-a-trip .book-a-trip-left .book-a-trip-left-cards .card-content .right .card-description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5E6282;
+}
+.book-a-trip .book-a-trip-right {
+  width: 707px;
+}
+.book-a-trip .book-a-trip-right img {
+  width: 100%;
+}

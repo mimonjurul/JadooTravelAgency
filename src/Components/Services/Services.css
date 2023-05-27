@@ -1,0 +1,80 @@
+.service{
+  margin-bottom: 123px;
+}
+ .services-top .service-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #5E6282;
+}
+.service .services-top .services-heading {
+  font-family: "Volkhov";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  text-transform: capitalize;
+  color: #14183E;
+}
+.service .services-bottom .service-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 86px;
+  position: relative;
+}
+.service .services-bottom .service-cards .service-cards--animation {
+  position: absolute;
+  top: 1px;
+  left: 26px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: -1;
+  height: 100px;
+  width: 100px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(223, 105, 81);
+}
+.service .services-bottom .service-cards .service-cards-main-content {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 45px;
+  border-radius: 30px;
+  width: 254px;
+  background-color: rgb(255, 255, 255);
+  line-height: 1.5;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service .services-bottom .service-cards .service-cards-main-content img {
+  width: 92px;
+  height: 78px;
+}
+.service .services-bottom .service-cards .service-cards-main-content .card-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #1E1D4C;
+  margin: 29px 0 15px;
+}
+.service .services-bottom .service-cards .service-cards-main-content .card-description {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #5E6282;
+}
+.service .services-bottom .service-cards .service-cards-main-content:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.service .services-bottom .service-cards:hover > .service-cards--animation {
+  top: -39px;
+  left: -12px;
+}

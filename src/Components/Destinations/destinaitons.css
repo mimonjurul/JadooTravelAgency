@@ -1,0 +1,68 @@
+.destinations {
+  margin-bottom: 186px;
+}
+.destinations .destinations-top .destinations-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5E6282;
+  text-align: center;
+}
+.destinations .destinations-top .destinations-heading {
+  font-family: "Volkhov";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #14183E;
+  margin: 8px 0 60px;
+}
+.destinations .destinations-bottom .destinations-section-img {
+  right: -9px;
+  top: 158px;
+  z-index: -24;
+}
+.destinations .destinations-bottom .destinations-card {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 1.5rem;
+  border-radius: 24px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.destinations .destinations-bottom .destinations-card .card-image {
+  width: 100%;
+  border-radius: 24px;
+}
+.destinations .destinations-bottom .destinations-card .card-info {
+  padding: 28px 23px 42px;
+}
+.destinations .destinations-bottom .destinations-card .card-info .place-pricing .place {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5E6282;
+}
+.destinations .destinations-bottom .destinations-card .card-info .place-pricing .pricing {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5E6282;
+}
+.destinations .destinations-bottom .destinations-card .card-info .days {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5E6282;
+  margin-top: 19px;
+}
+.destinations .destinations-bottom .destinations-card .card-info .days i {
+  margin-right: 14px;
+}
+.destinations .destinations-bottom .destinations-card:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
